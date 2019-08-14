@@ -1,0 +1,13 @@
+name: nims-academy-2019-08
+dependencies:
+  - python=3.7
+  - anaconda=2019.07
+  - fonttools=3.44.0
+  - py-xgboost=0.90
+  - lightgbm=2.2.1
+  - conda-forge::folium=0.10.0
+  - conda-forge::jpype1=0.6.3
+  - pip
+  - pip:
+    - konlpy==0.5.1
+
