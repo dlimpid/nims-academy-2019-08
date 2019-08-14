@@ -12,9 +12,9 @@
 :warning: 설치할 때 특별한 이유가 없는 한 옵션값을 바꾸지 말고 초기 상태대로 두고 설치하세요.
 
 - :white_check_mark: "Just Me (recommended)" **선택**
-- :white_large_square: Add Anaconda to my PATH environment variable **선택하지 않기**
+- :white_large_square: "Add Anaconda to my PATH environment variable" **선택하지 않기**
 
-:warning: 아래 실행 중 2.i에서 Windows 시작 메뉴에 Anaconda3가 생성되지 않는 경우, [아래](#windows에서-anaconda-재설치시-시작-메뉴에-anaconda-prompt가-만들어지지-않는-경우)를 참고해 보세요.
+:warning: 아래 실행 중 2.i에서 Windows 시작 메뉴에 Anaconda3, Anaconda prompt 등이 생성되지 않는 경우, [아래](#windows에서-anaconda-재설치시-시작-메뉴에-anaconda-prompt가-만들어지지-않는-경우)를 참고해 보세요.
 
 1. Miniconda 설치
 
@@ -81,7 +81,7 @@
 
     2. (Windows만 해당) JDK 설치
 
-        1. [JDK를 다운로드](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)합니다.
+        1. [JDK를 다운로드 페이지](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)에서 jdk-12.0.2_windows-x64_bin.exe를 받아 설치합니다.
         (현재 버전은 12.0.2인데, 만약 업데이트가 되어 새로운 버전을 받은 경우, 아래 디렉터리 이름을 맞는 버전으로 설정해 주세요.)
 
         2. 터미널에서 다음을 입력하여 `JAVA_HOME` 환경변수를 설정합니다.
@@ -127,18 +127,12 @@
     (nims-academy-2019-08) $ jupyter lab
     ```
 
-    Windows의 경우 다음 방법도 사용할 수 있습니다.
-
-    1. 시작 -> Anaconda3 (64-bit) -> Anaconda Navigator
-    2. **상단 "Applications on" 부분에서 "nims-academy-2019-08" 선택**
-    3. JupyterLab의 Launch 버튼 클릭
-
 6. 설치 확인
 
     웹 브라우저에서 JupyterLab이 열리면 nims-academy-2019-08-master 디렉터리에 있는 environment-test.ipynb를 열고 Run -> Run All Cells를 실행하여
 
     - 모든 셀이 문제 없이 실행되는지(첫 번째나 두 번째 셀에서 오류가 나는 경우 5번의 `conda activate nims-academy-2019-08`을 실행했는지 확인)
-    - 그림에 한글이 잘 출력되는지(끝까지 실행되지 않고 중간에 에러가 나는 경우 notebook의 설명을 참고하여 글꼴 이름 바꾸기)
+    - 그림에 한글이 잘 출력되는지(끝까지 실행되지 않고 중간에 에러가 나는 경우 notebook 내의 설명을 참고하여 글꼴 이름 바꾸기)
 
     확인해 봅니다.
 
