@@ -96,7 +96,7 @@
 
     3. 환경 만들기
 
-        다음 명령어를 실행해서 nims-academy 이름의 환경을 만듭니다.
+        다음 명령어를 실행해서 nims-academy-2019-08이라는 이름의 환경을 만듭니다.
 
         ```sh
         (base) $ conda env create -f nims-academy-2019-08-master/environment.yml
