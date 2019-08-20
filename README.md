@@ -4,7 +4,7 @@
 
 개인 랩탑(Windows/Mac OS)에 계산 환경을 설정하는 방법 안내입니다.
 
-:exclamation: Mac OS에서 `TypeError: Package kr.lucypark.tkt.TktInterface is not Callable`와 같은 에러가 나는 경우
+:exclamation: [Mac OS에서 `TypeError: Package kr.lucypark.tkt.TktInterface is not Callable`와 같은 에러가 나는 경우](https://github.com/dlimpid/nims-academy-2019-08#mac-os%EC%97%90%EC%84%9C-typeerror-package-krlucyparktkttktinterface-is-not-callable%EC%99%80-%EA%B0%99%EC%9D%80-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%98%EB%8A%94-%EA%B2%BD%EC%9A%B0)
 
 :warning: Linux 사용자이거나, 이미 본인이 관리하여 사용하고 있는 Python 환경이 있으신 경우 아카데미 진행 중 필요한 패키지만 설치하셔서 사용하셔도 무방합니다.
 
