@@ -4,6 +4,8 @@
 
 개인 랩탑(Windows/Mac OS)에 계산 환경을 설정하는 방법 안내입니다.
 
+:exclamation: Mac OS에서 `TypeError: Package kr.lucypark.tkt.TktInterface is not Callable`와 같은 에러가 나는 경우
+
 :warning: Linux 사용자이거나, 이미 본인이 관리하여 사용하고 있는 Python 환경이 있으신 경우 아카데미 진행 중 필요한 패키지만 설치하셔서 사용하셔도 무방합니다.
 
 :warning: Windows의 사용자 이름에 한글이 들어가면 제대로 동작하지 않는 경우가 있습니다.
@@ -139,6 +141,16 @@
 ---
 
 ## 참고 사항
+
+### Mac OS에서 `TypeError: Package kr.lucypark.tkt.TktInterface is not Callable`와 같은 에러가 나는 경우
+
+JDK를 1.8 버전을 설치하시고, JAVA_HOME을 설정해 주세요.
+
+예: ~/.bash_profile 파일 마지막에 다음을 추가(본인이 설치한 버전, 경로를 확인하여 작성)
+
+```plain
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+```
 
 ### 기존 환경 삭제 방법
 
